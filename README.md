@@ -31,6 +31,11 @@ Battle preparations or how to start a war
 4. Run the following command in your Robocode folder
    `java -Xmx1024M -cp libs/robocode.jar robocode.Robocode -battle battles\battles.battle -results results.txt`
 5. Watch the fight!
+###### For a faster development process:
+1. Edit `robotlocation` property for **dev profile** adding the `robot` directory path from your robocode installation
+2. For seeing a battle between two instances of your robot, run `mvn -Pdev clean install exec:exec`.
+
+
 
 Documentation and other links
 ----
