@@ -8,7 +8,7 @@
         <!--
             Set this to your robot's name
         -->
-    <artifactId>Roboter-${user.name}</artifactId>
+    <artifactId>TestBot</artifactId>
         <!--
             Set this to your robot's current version
         -->
@@ -18,6 +18,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <robotlocation>./robots</robotlocation>
     </properties>
+
+		<settings>
+       <profiles>
+			    <profile>
+			      <id>dev</id>
+			      <properties>
+							<robotlocation>path_to_the_robots_directory_from_your_robocode_installation</robotlocation>
+			      </properties>
+			    </profile>
+			  </profiles>
+		</settings>
 
     <build>
         <plugins>
