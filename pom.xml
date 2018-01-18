@@ -19,16 +19,14 @@
         <robotlocation>./robots</robotlocation>
     </properties>
 
-		<settings>
-       <profiles>
-			    <profile>
-			      <id>dev</id>
-			      <properties>
-							<robotlocation>path_to_the_robots_directory_from_your_robocode_installation</robotlocation>
-			      </properties>
-			    </profile>
-			  </profiles>
-		</settings>
+    <profiles>
+      <profile>
+        <id>dev</id>
+        <properties>
+    			<robotlocation>path_to_the_robots_directory_from_your_robocode_installation</robotlocation>
+        </properties>
+      </profile>
+    </profiles>
 
     <build>
         <plugins>
